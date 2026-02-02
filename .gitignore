@@ -1,0 +1,17 @@
+# 日志文件
+*.log
+
+# 检查点和保存点数据
+flink-checkpoints/
+flink-savepoints/
+
+# 作业文件 (如果需要提交到 Git，请移除此行)
+jobs/*.jar
+
+# IDE 配置
+.vscode/
+.idea/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
