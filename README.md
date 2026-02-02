@@ -86,10 +86,10 @@ flink run -d /opt/flink/jobs/your-job.jar
 | 变量 | 默认值 | 说明 |
 |------|--------|------|
 | `jobmanager.rpc.address` | jobmanager | JobManager RPC 地址 |
-| `jobmanager.memory.process.size` | 1600m | JobManager 内存大小 |
-| `taskmanager.memory.process.size` | 1728m | TaskManager 内存大小 |
-| `taskmanager.numberOfTaskSlots` | 2 | 每个 TaskManager 的 Slot 数量 |
-| `parallelism.default` | 2 | 默认并行度 |
+| `jobmanager.memory.process.size` | 2048m | JobManager 内存大小 |
+| `taskmanager.memory.process.size` | 6144m | TaskManager 内存大小 |
+| `taskmanager.numberOfTaskSlots` | 4 | 每个 TaskManager 的 Slot 数量 |
+| `parallelism.default` | 8 | 默认并行度 |
 
 ### 端口
 
